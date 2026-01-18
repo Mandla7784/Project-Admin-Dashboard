@@ -47,7 +47,48 @@ nav {
   background-color: #3498db;
   color: white;
   padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
 }
 navh3 {
-  color: black;
+  color: white;
+}
+nav button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+nav button:hover {
+  opacity: 0.8;
+}
+
+.cards-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.cards-section .card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.cards-section .card i {
+  font-size: 2rem;
+  color: #3498db;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+.cards-section .card h3 {
+  margin: 0.5rem 0;
+}
+.cards-section .card p {
+  color: #888;
+  margin: 0;
 }/*# sourceMappingURL=styles.css.map */

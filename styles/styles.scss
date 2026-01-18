@@ -4,11 +4,32 @@ $primary-color: #3498db;
 $font-stack: 'Roboto', sans-serif;
 
     @mixin sideBar-styles()
+{
         background-color: $primary-color;
         color: white;
         font-family: $font-stack;
         padding: 1rem;
         border-radius: 5px;
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+
+            li {
+                margin: 0.5rem 0;
+
+                a {
+                    color: white;
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    
+}
 
 body {
     font-family: $font-stack;

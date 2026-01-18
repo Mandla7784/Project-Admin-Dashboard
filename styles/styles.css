@@ -71,6 +71,8 @@ nav button:hover {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1rem;
   margin-top: 1rem;
+  margin-left: 2em;
+  overflow-y: auto;
 }
 .cards-section .card {
   background-color: white;

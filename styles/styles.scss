@@ -1,1 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+$primary-color: #3498db;
+// $secondary-color: #2ecc71;
+$font-stack: 'Roboto', sans-serif;
+
+    @mixin sideBar-styles()
+        background-color: $primary-color;
+        color: white;
+        font-family: $font-stack;
+        padding: 1rem;
+        border-radius: 5px;
+
+body {
+    font-family: $font-stack;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}

@@ -4,4 +4,29 @@ body {
   margin: 0;
   padding: 0;
   background-color: #f4f4f4;
+  display: grid;
+}
+
+aside {
+  background-color: #3498db;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  padding: 1rem;
+  border-radius: 5px;
+  width: 250px;
+  height: 100vh;
+}
+aside ul {
+  list-style-type: none;
+  padding: 0;
+}
+aside ul li {
+  margin: 0.5rem 0;
+}
+aside ul li a {
+  color: white;
+  text-decoration: none;
+}
+aside ul li a:hover {
+  text-decoration: underline;
 }/*# sourceMappingURL=styles.css.map */

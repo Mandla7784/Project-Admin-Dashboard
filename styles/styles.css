@@ -44,14 +44,62 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #3498db;
-  color: white;
-  padding: 0.5rem 1rem;
+  background-color: white;
+  color: black;
+  padding: 1rem;
   border-radius: 5px;
   margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-navh3 {
-  color: white;
+nav h3 {
+  color: black;
+  margin: 0;
+}
+nav .top-half {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex: 1;
+}
+nav .top-half i {
+  color: black;
+  cursor: pointer;
+}
+nav .top-half .search-bar {
+  flex: 1;
+  max-width: 300px;
+}
+nav .top-half .search-bar input {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9rem;
+}
+nav .top-half .search-bar input:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+}
+nav .bottom-half {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+nav .bottom-half .morgan-text p {
+  margin: 0;
+  color: #666;
+  font-size: 0.9rem;
+}
+nav .bottom-half .morgan-text h2 {
+  margin: 0;
+  font-size: 1rem;
+  color: black;
+}
+nav .bottom-half .buttons {
+  display: flex;
+  gap: 0.5rem;
 }
 nav button {
   background-color: #3498db;
@@ -60,7 +108,7 @@ nav button {
   padding: 0.5rem 1rem;
   border-radius: 5px;
   cursor: pointer;
-  margin-left: 0.5rem;
+  font-weight: 500;
 }
 nav button:hover {
   opacity: 0.8;
